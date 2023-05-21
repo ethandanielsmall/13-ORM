@@ -2,15 +2,18 @@
 
 ## Description
 
+This project the back end of an e-commerce website.
+
 ## Credits
-https://stackoverflow.com/questions/53545800/internal-modules-cjs-loader-js582-throw-er
 
-https://github.com/christian1512-FE/DevCM-ORM-23
+Istiyak Ahamed Milon and Henke: https://stackoverflow.com/questions/53545800/internal-modules-cjs-loader-js582-throw-er
 
-https://chat.openai.com/
+Christian: https://github.com/christian1512-FE/DevCM-ORM-23
 
-https://github.com/avamariee/ORM-challenge
+OpenAi: https://chat.openai.com/
 
-bob small
+Ava Marie Bullock: https://github.com/avamariee/ORM-challenge
 
-https://github.com/fairiberry/orm-challenge/blob/main/routes/api/product-routes.js
+Bob Small
+
+Farrah Syed: https://github.com/fairiberry/orm-challenge
