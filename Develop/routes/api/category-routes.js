@@ -6,11 +6,10 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
-  try {
-    var allCategories = Category.findAll({
-      include : {Product}
-    })
-    res.json(allCategories);
+  var allCategories = Category.findAll({
+    include : {Product}
+  })
+  res.json(allCategories);
 });
 
 router.get('/:id', (req, res) => {
@@ -24,21 +23,19 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   // create a new category
-  try {
-    Category.create({
-      category_name: req.body.category_name
-    })
-    .then((newCategory) => {
-      res.json(newCategory);
-    })
+  Category.create({
+    category_name: req.body.category_name
+  })
+  .then((newCategory) => {
+    res.json(newCategory);
+  })
 });
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
-  try {
-    Category.update({
-      where : {category_id: req.params.id}
-    })
+  Category.update({
+    where : {category_id: req.params.id}
+  })
 });
 
 router.delete('/:id', (req, res) => {
