@@ -6,3 +6,5 @@
 https://stackoverflow.com/questions/53545800/internal-modules-cjs-loader-js582-throw-er
 
 https://chat.openai.com/
+
+bob small
