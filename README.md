@@ -6,6 +6,8 @@ This project the back end of an e-commerce website.
 
 ## Credits
 
+Base Starter Code: https://github.com/coding-boot-camp/fantastic-umbrella
+
 Istiyak Ahamed Milon and Henke: https://stackoverflow.com/questions/53545800/internal-modules-cjs-loader-js582-throw-er
 
 Christian: https://github.com/christian1512-FE/DevCM-ORM-23
